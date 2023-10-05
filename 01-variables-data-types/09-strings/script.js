@@ -1,10 +1,11 @@
 let x;
 
-const name = 'John';
-const age = 31;
+const name = 'Sanket';
+const age = 21;
 
-// Concatenation
+// Concatenation    
 x = 'Hello, my name is ' + name + ' and I am ' + age + ' years old';
+console.log(x);
 
 // Template Literals
 x = `Hello, my name is ${name} and I am ${age} years old`;
@@ -23,6 +24,8 @@ x = s[0];
 
 // Shows the prototype of the string object. Shows the properties and methods
 x = s.__proto__;
+console.log(x);
+
 
 // Change case
 x = s.toUpperCase();
@@ -53,6 +56,7 @@ x = s.includes('Hell');
 
 // valueOf() - returns the primitive value of a variable
 x = s.valueOf();
+console.log(x);
 
 // split() - returns an array of strings
 x = s.split('');

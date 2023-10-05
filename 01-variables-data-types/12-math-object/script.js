@@ -8,12 +8,16 @@ x = Math.abs(-5);
 
 // Round
 x = Math.round(4.2);
+console.log(x);
+
 
 // Round up
 x = Math.ceil(4.2);
 
 // Round down
 x = Math.floor(4.9);
+console.log(x);
+
 
 // Exponent
 x = Math.pow(2, 3);
