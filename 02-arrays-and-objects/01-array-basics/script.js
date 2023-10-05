@@ -22,11 +22,15 @@ fruits[2] = 'pear';
 // fruits.length = 2;
 
 fruits[3] = 'strawberry';
+console.log(fruits);
 
 // Using the length as the index will always add on the the end
 fruits[fruits.length] = 'blueberry';
+console.log(fruits);
 fruits[fruits.length] = 'peach';
+console.log(fruits);
 
 x = fruits;
 
 console.log(x);
+

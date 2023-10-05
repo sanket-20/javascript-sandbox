@@ -13,8 +13,10 @@ x = fruits[3][1];
 
 // Create a new variable and nest both arrays
 const allFruits = [fruits, berries];
+console.log(allFruits);
 
 x = allFruits[1][2];
+console.log(x);
 
 // concat() - Concatenate arrays
 x = fruits.concat(berries);
@@ -26,13 +28,15 @@ x = [...fruits, ...berries];
 const arr = [1, 2, [3, 4, 5], 6, [7, 8]];
 x = arr.flat();
 
+console.log("Flatten arr: ", x);
 // Static methods of Array object
 
 // isArray() - Check is is an array
 x = Array.isArray(fruits);
 
 // from() - Create an array from an array like value
-x = Array.from('12345');
+x = Array.from('hello');
+console.log(x);
 
 // of() - Create an array from a set of values
 const a = 1;

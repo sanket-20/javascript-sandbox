@@ -6,6 +6,7 @@ const post = {
 
 // Convert to JSON string
 const str = JSON.stringify(post);
+console.log(str);
 
 console.log(str.id);
 
@@ -30,4 +31,5 @@ const posts = [
 
 const str2 = JSON.stringify(posts);
 
-console.log(str2);
+var obj1 = JSON.parse(str2);
+console.log(obj1[1].title);

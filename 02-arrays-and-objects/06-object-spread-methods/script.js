@@ -28,6 +28,7 @@ const obj2 = { c: 3, d: 4 };
 const obj3 = { ...obj1, ...obj2 };
 // Same as using ...
 const obj4 = Object.assign({}, obj1, obj2);
+console.log(obj4);
 
 // Array of objects
 const todos = [

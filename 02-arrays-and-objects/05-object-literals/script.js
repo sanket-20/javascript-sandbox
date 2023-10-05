@@ -38,8 +38,8 @@ person.greet();
 
 // Keys with multiple words
 const person2 = {
-  'first name': 'Brad',
-  'last name': 'Traversy',
+  'first name': 'Sanket',
+  'last name': 'Gupte',
 };
 
 x = person2['first name'];
