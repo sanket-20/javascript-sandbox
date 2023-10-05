@@ -4,15 +4,15 @@ const age = 30;
 
 // Reference is stored in the heap
 const person = {
-  name: 'Brad',
+  name: 'Sanket',
   age: 40,
 };
 
 let newName = name;
-newName = 'Jonathan';
+newName = 'Shekhar';
 
 let newPerson = person;
-newPerson.name = 'Bradley';
+newPerson.name = 'Sushant';
 
-console.log(name, newName); // John, Jonathan
-console.log(person, newPerson); // { name: 'Bradley', age: 40 }, { name: 'Bradley', age: 40 }
+console.log(name, newName); // John, Shekhar
+console.log(person, newPerson); // { name: 'Sushant', age: 40 }, { name: 'Sushant', age: 40 }

@@ -16,7 +16,7 @@ console.error('Alert');
 console.warn('Warning');
 
 // Log object as table
-console.table({ name: 'Brad', email: 'brad@gmail.com' });
+console.table({ name: 'Sanket', email: 'sanketgupte20@gmail.com' });
 
 // Group console commands
 console.group('simple');

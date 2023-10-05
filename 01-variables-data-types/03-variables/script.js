@@ -43,10 +43,10 @@ arr.push(5);
 console.log(arr);
 
 const person = {
-  name: 'Brad',
+  name: 'Sanket',
 };
-person.name = 'John';
-person.email = 'brad@gmail.com';
+person.name = 'Sushant';
+person.email = 'sanketgupte20@gmail.com';
 console.log(person);
 
 // Declare multiple values at once
